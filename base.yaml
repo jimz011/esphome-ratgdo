@@ -56,7 +56,7 @@ api:
 
 ota:
   - platform: esphome
-    id: ${id_prefix}_ratgdo_ota
+    password: !secret api_pwd
   - platform: web_server
     id: ${id_prefix}_ratgdo_ota_ws
 
